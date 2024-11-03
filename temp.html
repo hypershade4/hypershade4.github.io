@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>its fye bro</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="temp.css">
+        <div id="container">
+        
+            <div id="header_contaianer">
+                <h1>Temperature converter</h1>
+            </div>
+
+            <div id="dropdownAndStuff">
+                <div id="dropdown">
+                    <select id="selectbox_1">
+                        <option value="none">none</option>
+                        <option value="celsius">celsius</option>
+                        <option value="fahrenheit">fahrenheit</option>
+                        <option value="kelvin">kelvin</option>
+                    </select>
+                </div>
+
+                <div id="swap_button">
+                <button id="swap" class="buttons" onclick="swapUnits()">swap</button>
+                </div>
+            
+                <div id="dropdown_2">
+                    <select id="selectbox_2">
+                        <option value="none">none</option>
+                        <option value="celsius">celsius</option>
+                        <option value="fahrenheit">fahrenheit</option>
+                        <option value="kelvin">kelvin</option>
+                    </select>
+                </div>
+                
+            </div>
+
+            <br>
+
+            <div>
+                <input type="number" id="input_1" required>
+                <br><br>
+                </div>
+
+                <div id="submit">
+                    <button id="submit_button" class="buttons">convert</button>
+                </div>
+
+                <div id="answer container">
+                    <h2 id="answer"></h2>
+                </div>
+            </div>
+        
+        </div>
+        <script src="temp.js"></script>
+    </body>
+</html>
